@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women Safety Web App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Women Safety Web App</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#contacts">Emergency</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h2>Stay Safe, Stay Connected</h2>
+<p>Frontend demo application for women's safety awareness.</p>
+<button onclick="showAlert()">SOS Alert</button>
+</section>
+
+<section id="features">
+<h2>Features</h2>
+<div class="card">Emergency SOS</div>
+<div class="card">Live Location (Demo)</div>
+<div class="card">Trusted Contacts</div>
+<div class="card">Safety Tips</div>
+</section>
+
+<section id="contacts">
+<h2>Emergency Contacts</h2>
+<input type="text" id="contact" placeholder="Enter contact number">
+<button onclick="saveContact()">Save</button>
+<p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

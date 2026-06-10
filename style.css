@@ -1,0 +1,51 @@
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+header{
+background:#ff4081;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+}
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(135deg,#ff4081,#ff80ab);
+color:white;
+}
+button{
+padding:10px 20px;
+border:none;
+background:#222;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+#features{
+padding:30px;
+text-align:center;
+}
+.card{
+background:white;
+margin:10px auto;
+padding:20px;
+max-width:300px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,.2);
+}
+#contacts{
+padding:30px;
+text-align:center;
+}
+input{
+padding:10px;
+width:250px;
+}
